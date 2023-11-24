@@ -1,0 +1,48 @@
+.modal {
+  width: 80%;
+  margin-top: 5vh;
+  min-height: 80vh;
+
+  .modal-body {
+    height: auto;
+    max-height: 75vh;
+  }
+
+  @media only screen and (max-width: 900px) {
+    .modal-body {
+      max-height: 60vh;
+    }
+  }
+}
+
+.social {
+  display: flex;
+  margin-top: -15px;
+}
+
+.social p {
+  margin-top: 17px;
+  margin-right: 10px;
+}
+
+.social .social-icon,
+.discord-icon {
+  font-size: 26px;
+  color: #000;
+  margin-right: 6px;
+  margin-top: 15px;
+}
+
+.social .social-icon:hover {
+  color: #d698c1;
+  transition: color 0.2s;
+}
+
+.discord-icon:hover {
+  fill: #d698c1;
+  transition: fill 0.2s;
+}
+
+img {
+  border-image: linear-gradient(30deg, #b3743d 0%, #d0a987 50%, #b3743d 100%);
+}
